@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables (Sensitive Data - NEVER PUSH THIS)
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Build folders (if you use TypeScript or a bundler later)
+dist/
+build/
