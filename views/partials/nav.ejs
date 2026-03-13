@@ -28,3 +28,9 @@
     </div>
   </div>
 </nav>
+
+<% if (locals.error) { %>
+  <div class="alert alert-danger" role="alert">
+   incorrect password or email
+</div>
+<% } %>
